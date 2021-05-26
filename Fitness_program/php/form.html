@@ -1,0 +1,25 @@
+
+<!DOCTYPE html>
+    <html>
+      <head>    
+      </head>
+      <title>test</title>
+      <body>
+        <form enctype='multipart/form-data' action='upload.php' method='post'>
+            <input type='file' name='myfile'>
+            <input type='submit' value='upload' style='width:60px;height:22px;'><br>
+            <input type='text' id='idx' name='idx' style='width:60px;height:15px;'>
+        </form>
+
+        <script type="text/javascript"> 
+            function setText(str){
+                document.getElementById("idx").value = str;
+                document.getElementById("idx").style.visibility="hidden";
+            }
+
+        </script>
+
+        
+      </body>
+    </html>
+
